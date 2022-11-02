@@ -5,9 +5,8 @@ void swap(char& a, char&b);
 char* string2char(std::string& a, char* b);
 
 int main(){
-    //std::cout << "enter string : ";
-    std::string str = "ab";
-    //std::cin >> str;
+    std::cout << "enter string : ";
+    std::cin >> str;
     int n = 0, k = str.length();
     char c[k]; 
     P(string2char(str, c), n, k-1);
